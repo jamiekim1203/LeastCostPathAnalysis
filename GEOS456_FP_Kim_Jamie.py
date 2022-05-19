@@ -1,6 +1,6 @@
 #-------------------------------------------------------------------------------
 # Name:       Jamie Kim
-# Purpose: GEOS456 - Final Assignment
+# Purpose: GEOS456 - Final Project
 # Created:     24/04/2022
 #-------------------------------------------------------------------------------
 
@@ -11,6 +11,7 @@ from arcpy.sa import *
 import arcpy.mp as MAP
 print("Imported python modules")
 print("")
+
 #check out the spatial extension
 arcpy.CheckOutExtension("Spatial")
 print("Checked out the spatial extension")
